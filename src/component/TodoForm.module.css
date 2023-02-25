@@ -1,0 +1,45 @@
+.formContainer {
+  padding: 0 1.5rem;
+}
+form {
+  display: flex;
+  outline: none;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+.formFocus {
+  border-color: #7c3aed;
+}
+form:focus {
+  border-color: #7c3aed;
+}
+.formInput {
+  flex-grow: 1;
+  padding: 0.8rem 1rem;
+  outline: none;
+  border: none;
+}
+input {
+  width: 50%;
+}
+.formBtn {
+  padding: 0.8rem 1rem;
+  border: none;
+  color: #7c3aed;
+  background-color: #ede9fe;
+}
+.cancelBtn {
+  background-color: #fff;
+  border-left: 1px solid #ccc;
+}
+.formFocus .formBtn {
+  border-left: 1px solid #7c3aed;
+}
+.errorMessage {
+  color: #db2777;
+  text-align: center;
+  padding-top: 0.5rem;
+  font-size: 1.4rem;
+}

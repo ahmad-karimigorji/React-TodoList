@@ -1,0 +1,37 @@
+.todoContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.7rem;
+  color: #7c3aed;
+  background-color: #ede9fe;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.completed {
+  opacity: 0.5;
+}
+.completed p {
+  text-decoration: line-through;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+  padding: 0.5rem;
+  display: flex;
+}
+.textBox,
+.iconBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.editIcon {
+  color: #60a5fa;
+}
+.trashIcon {
+  color: #db2777;
+}
+p {
+  word-break: break-word;
+}
